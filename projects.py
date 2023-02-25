@@ -148,7 +148,6 @@ id['Categoria']=id['cluster'].apply(lambda x: 'extrovertido' if x==0 else ('cons
 id.to_csv("resultados.csv")
 
 
-#aws s3 cp "resultados.csv" "s3://proyecto-data/data2//2023-02-22-19-20-28/"
 
 
 
